@@ -1,0 +1,30 @@
+{
+  "name": "git-clone",
+  "version": "1.0.0",
+  "description": "A Git clone implementation in TypeScript",
+  "main": "dist/index.js",
+  "bin": {
+    "mygit": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "git",
+    "vcs",
+    "version-control"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
